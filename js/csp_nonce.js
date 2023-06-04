@@ -8,4 +8,3 @@ app.get('/', function(request, response) {
     // Every <script> tag in your application should set the `nonce` attribute to this value.
     response.render(template, { nonce: nonce });
   });
-}
