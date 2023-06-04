@@ -25,7 +25,7 @@
     <meta name="twitter:title" content="jmrplens">
     <meta name="twitter:description" content="Mente inquieta. Ingeniero en Telecomunicaciones. Máster en Ingeniería Acústica. Doctorando en i3M-CSIC (UPV)">
     <meta name="twitter:image" content="img/1.jpeg">
-    <script type="application/ld+json">
+    <script nonce="${NONCE}" type="application/ld+json">
       {
         "author":
         {
@@ -239,6 +239,7 @@
       </div>
     </div>
   </body>
-  <script defer src="js/jquery-3.6.3.slim.min.js"></script>
-  <script defer src="js/refresh_data.js"></script>
+    <script defer nonce="${NONCE}" src="csp_nonce.js"></script>
+  <script defer nonce="${NONCE}" src="js/jquery-3.6.3.slim.min.js"></script>
+  <script defer nonce="${NONCE}" src="js/refresh_data.js"></script>
 </html>
