@@ -1,3 +1,2 @@
 /*
   Access-Control-Allow-Origin: *
-  Content-Security-Policy: script-src static.cloudflareinsights.com 'self' 'strict-dynamic'; connect-src cloudflareinsights.com;object-src 'self';
